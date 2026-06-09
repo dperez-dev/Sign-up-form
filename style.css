@@ -1,0 +1,73 @@
+
+#backgroundImage{
+    background-image: url(/images/a833469ce7d655fa025e521833a373a8.jpeg);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContainer{
+    max-width: 40%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.508);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#bottomForm{
+    display: flex;
+    width: 100%;
+    height: 150px;
+
+    justify-content: center;
+    align-items: center;
+}
+#siteHeader{
+    color: white;
+    margin-left: 20px;
+}
+#raceContainer{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.row{
+    display: flex;
+}
+.inputContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 22px;
+}
+select{
+    width: 50%;
+    font-size: 20px;
+}
+button{
+    font-size: 30px;
+}
+input{
+    width: 50%;
+    font-size: 20px;
+}
+
+body{background-color: black;}
+
+input:user-invalid{
+    border: 2px solid red;
+}
+
+input:focus{
+    border: rgb(0, 76, 255) solid 1px;
+    box-shadow: 1px black;
+}
